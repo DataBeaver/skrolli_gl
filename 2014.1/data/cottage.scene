@@ -1,0 +1,98 @@
+object grass
+object walls
+object roof
+object corners
+
+object tower
+translate 9 0 0
+
+object fence_corner
+translate -15 20 0.05
+
+object fence
+translate -10 20 0.1
+object fence
+translate -5 20 0.13
+object fence
+translate 0 20 0.08
+object fence
+translate 5 20 0.03
+object fence
+translate 10 20 0
+object fence
+translate 15 20 0
+
+object fence_corner
+translate 20 20 0.05
+rotate_z -90
+
+object fence
+translate 20 15 0.02
+rotate_z -90
+object fence
+translate 20 10 0.03
+rotate_z -90
+object fence
+translate 20 5 0.08
+rotate_z -90
+object fence
+translate 20 0 0.13
+rotate_z -90
+object fence
+translate 20 -5 0.18
+rotate_z -90
+object fence
+translate 20 -10 0.20
+rotate_z -90
+object fence
+translate 20 -15 0.15
+rotate_z -90
+
+object fence_corner
+translate 20 -20 0.1
+rotate_z 180
+
+object fence
+translate 15 -20 0.05
+rotate_z 180
+object fence
+translate 10 -20 0
+rotate_z 180
+object gate
+translate 5 -20 0
+rotate_z 180
+object fence
+translate 0 -20 0
+rotate_z 180
+object fence
+translate -5 -20 0.05
+rotate_z 180
+object fence
+translate -10 -20 0.03
+rotate_z 180
+
+object fence_corner
+translate -15 -20 0
+rotate_z 90
+
+object fence
+translate -15 -15 0
+rotate_z 90
+object fence
+translate -15 -10 0
+rotate_z 90
+object fence
+translate -15 -5 0
+rotate_z 90
+object fence
+translate -15 0 0.03
+rotate_z 90
+object fence
+translate -15 5 0.07
+rotate_z 90
+object fence
+translate -15 10 0.05
+rotate_z 90
+object fence
+translate -15 15 0
+rotate_z 90

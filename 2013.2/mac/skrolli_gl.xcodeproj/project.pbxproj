@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776A8B1C171EDC6300CC24E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776A8B1B171EDC6300CC24E8 /* Cocoa.framework */; };
+		776A8B26171EDC6300CC24E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 776A8B24171EDC6300CC24E8 /* InfoPlist.strings */; };
+		776A8B28171EDC6300CC24E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A8B27171EDC6300CC24E8 /* main.m */; };
+		776A8B2C171EDC6300CC24E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 776A8B2A171EDC6300CC24E8 /* Credits.rtf */; };
+		776A8B2F171EDC6300CC24E8 /* SkrolliGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A8B2E171EDC6300CC24E8 /* SkrolliGLAppDelegate.m */; };
+		776A8B32171EDC6400CC24E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 776A8B30171EDC6400CC24E8 /* MainMenu.xib */; };
+		776A8B391720118800CC24E8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776A8B381720118800CC24E8 /* OpenGL.framework */; };
+		776A8B3C17201E4D00CC24E8 /* SkrolliGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A8B3B17201E4D00CC24E8 /* SkrolliGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		776A8B18171EDC6300CC24E8 /* skrolli_gl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skrolli_gl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776A8B1B171EDC6300CC24E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		776A8B1E171EDC6300CC24E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		776A8B1F171EDC6300CC24E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		776A8B20171EDC6300CC24E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		776A8B23171EDC6300CC24E8 /* skrolli_gl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "skrolli_gl-Info.plist"; sourceTree = "<group>"; };
+		776A8B25171EDC6300CC24E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		776A8B27171EDC6300CC24E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776A8B29171EDC6300CC24E8 /* skrolli_gl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "skrolli_gl-Prefix.pch"; sourceTree = "<group>"; };
+		776A8B2B171EDC6300CC24E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		776A8B2D171EDC6300CC24E8 /* SkrolliGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkrolliGLAppDelegate.h; sourceTree = "<group>"; };
+		776A8B2E171EDC6300CC24E8 /* SkrolliGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkrolliGLAppDelegate.m; sourceTree = "<group>"; };
+		776A8B31171EDC6400CC24E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		776A8B381720118800CC24E8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		776A8B3A17201E4D00CC24E8 /* SkrolliGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkrolliGLView.h; sourceTree = "<group>"; };
+		776A8B3B17201E4D00CC24E8 /* SkrolliGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkrolliGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776A8B15171EDC6300CC24E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776A8B391720118800CC24E8 /* OpenGL.framework in Frameworks */,
+				776A8B1C171EDC6300CC24E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776A8B0F171EDC6300CC24E8 = {
+			isa = PBXGroup;
+			children = (
+				776A8B21171EDC6300CC24E8 /* skrolli_gl */,
+				776A8B1A171EDC6300CC24E8 /* Frameworks */,
+				776A8B19171EDC6300CC24E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776A8B19171EDC6300CC24E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776A8B18171EDC6300CC24E8 /* skrolli_gl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776A8B1A171EDC6300CC24E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776A8B381720118800CC24E8 /* OpenGL.framework */,
+				776A8B1B171EDC6300CC24E8 /* Cocoa.framework */,
+				776A8B1D171EDC6300CC24E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		776A8B1D171EDC6300CC24E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776A8B1E171EDC6300CC24E8 /* AppKit.framework */,
+				776A8B1F171EDC6300CC24E8 /* CoreData.framework */,
+				776A8B20171EDC6300CC24E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		776A8B21171EDC6300CC24E8 /* skrolli_gl */ = {
+			isa = PBXGroup;
+			children = (
+				776A8B2D171EDC6300CC24E8 /* SkrolliGLAppDelegate.h */,
+				776A8B2E171EDC6300CC24E8 /* SkrolliGLAppDelegate.m */,
+				776A8B3A17201E4D00CC24E8 /* SkrolliGLView.h */,
+				776A8B3B17201E4D00CC24E8 /* SkrolliGLView.m */,
+				776A8B30171EDC6400CC24E8 /* MainMenu.xib */,
+				776A8B22171EDC6300CC24E8 /* Supporting Files */,
+			);
+			path = skrolli_gl;
+			sourceTree = "<group>";
+		};
+		776A8B22171EDC6300CC24E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776A8B23171EDC6300CC24E8 /* skrolli_gl-Info.plist */,
+				776A8B24171EDC6300CC24E8 /* InfoPlist.strings */,
+				776A8B27171EDC6300CC24E8 /* main.m */,
+				776A8B29171EDC6300CC24E8 /* skrolli_gl-Prefix.pch */,
+				776A8B2A171EDC6300CC24E8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776A8B17171EDC6300CC24E8 /* skrolli_gl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776A8B35171EDC6400CC24E8 /* Build configuration list for PBXNativeTarget "skrolli_gl" */;
+			buildPhases = (
+				776A8B14171EDC6300CC24E8 /* Sources */,
+				776A8B15171EDC6300CC24E8 /* Frameworks */,
+				776A8B16171EDC6300CC24E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skrolli_gl;
+			productName = skrolli_gl;
+			productReference = 776A8B18171EDC6300CC24E8 /* skrolli_gl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776A8B10171EDC6300CC24E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SkrolliGL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mikko Rasa";
+			};
+			buildConfigurationList = 776A8B13171EDC6300CC24E8 /* Build configuration list for PBXProject "skrolli_gl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 776A8B0F171EDC6300CC24E8;
+			productRefGroup = 776A8B19171EDC6300CC24E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776A8B17171EDC6300CC24E8 /* skrolli_gl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776A8B16171EDC6300CC24E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776A8B26171EDC6300CC24E8 /* InfoPlist.strings in Resources */,
+				776A8B2C171EDC6300CC24E8 /* Credits.rtf in Resources */,
+				776A8B32171EDC6400CC24E8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776A8B14171EDC6300CC24E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776A8B28171EDC6300CC24E8 /* main.m in Sources */,
+				776A8B2F171EDC6300CC24E8 /* SkrolliGLAppDelegate.m in Sources */,
+				776A8B3C17201E4D00CC24E8 /* SkrolliGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		776A8B24171EDC6300CC24E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776A8B25171EDC6300CC24E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		776A8B2A171EDC6300CC24E8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776A8B2B171EDC6300CC24E8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		776A8B30171EDC6400CC24E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776A8B31171EDC6400CC24E8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776A8B33171EDC6400CC24E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		776A8B34171EDC6400CC24E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		776A8B36171EDC6400CC24E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skrolli_gl/skrolli_gl-Prefix.pch";
+				INFOPLIST_FILE = "skrolli_gl/skrolli_gl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		776A8B37171EDC6400CC24E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skrolli_gl/skrolli_gl-Prefix.pch";
+				INFOPLIST_FILE = "skrolli_gl/skrolli_gl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776A8B13171EDC6300CC24E8 /* Build configuration list for PBXProject "skrolli_gl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776A8B33171EDC6400CC24E8 /* Debug */,
+				776A8B34171EDC6400CC24E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776A8B35171EDC6400CC24E8 /* Build configuration list for PBXNativeTarget "skrolli_gl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776A8B36171EDC6400CC24E8 /* Debug */,
+				776A8B37171EDC6400CC24E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776A8B10171EDC6300CC24E8 /* Project object */;
+}

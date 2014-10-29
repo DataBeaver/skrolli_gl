@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="283.46457"
+   height="283.46457"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="roof.svg"
+   inkscape:export-filename="/home/tdb/doc/Skrolli/opengl4/skrolli_engine/roof.png"
+   inkscape:export-xdpi="180.02249"
+   inkscape:export-ydpi="180.02249">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="247.69567"
+     inkscape:cy="152.12302"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="mm"
+     inkscape:object-nodes="true"
+     inkscape:window-width="2520"
+     inkscape:window-height="1382"
+     inkscape:window-x="1200"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       units="mm"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-768.89763)">
+    <rect
+       style="fill:#323232;fill-opacity:1;stroke:none"
+       id="rect3797"
+       width="283.46457"
+       height="283.46457"
+       x="0"
+       y="2.1626629e-06"
+       transform="translate(0,768.89763)" />
+    <path
+       style="fill:none;stroke:#191919;stroke-width:7.08661413;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 0,981.49604 c 0,35.43306 10.629922,70.86616 35.433071,70.86616 24.80315,0 35.433071,-35.4331 35.433071,-70.86616"
+       id="path2987"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path2987"
+       id="use3759"
+       transform="translate(35.433071,-70.866141)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3759"
+       id="use3761"
+       transform="translate(35.433071,70.866142)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3759"
+       id="use3763"
+       transform="translate(70.866142,1.5262049e-7)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3761"
+       id="use3765"
+       transform="translate(70.866142,1.5262049e-7)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3763"
+       id="use3767"
+       transform="translate(70.866142,0)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3765"
+       id="use3769"
+       transform="translate(70.866142,0)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path2987"
+       id="use3771"
+       transform="translate(-35.43307,-70.866141)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       height="1052.3622"
+       width="744.09448"
+       transform="translate(70.866142,0)"
+       id="use3773"
+       xlink:href="#use3763"
+       y="0"
+       x="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path2987"
+       id="use3775"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3759"
+       id="use3777"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3761"
+       id="use3779"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3763"
+       id="use3781"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3765"
+       id="use3783"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3767"
+       id="use3785"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3769"
+       id="use3787"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3771"
+       id="use3789"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3773"
+       id="use3791"
+       transform="translate(0,-141.73228)"
+       width="744.09448"
+       height="1052.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path2987"
+       id="use3793"
+       transform="translate(248.0315,-70.866124)"
+       width="283.46457"
+       height="283.46457" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path2987"
+       id="use3795"
+       transform="translate(248.0315,-212.59841)"
+       width="283.46457"
+       height="283.46457" />
+  </g>
+</svg>
